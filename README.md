@@ -1,1 +1,1 @@
-# Linux-Scripts used to help in daily work
+# Linux Scripts and commands making life as DBA easier
