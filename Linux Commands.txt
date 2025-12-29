@@ -1,0 +1,22 @@
+-- ***************************************************************************************
+-- ** File Name 	: Linux Commands.txt
+-- ** Author		: Fredrik Lindkvist
+-- ** Description 	: Text file containing some nice commands making days easier
+-- ** Requirement	: Linux access to eBS midtier server
+-- ** Modified		: 2025-12-29
+-- ***************************************************************************************
+
+-- ** 
+-- ** How change directory to the location of $CONTEXT_FILE without showing it with echo $CONTEXT_FILE first.
+-- ** The first one is slightly faster.
+-- **
+
+$ cd "${CONTEXT_FILE%/*}"
+
+
+-- **
+-- ** How to easy show only the name of the $CONTEXT_FILE without the full path
+-- **
+
+$ echo ${CONTEXT_FILE##*/}
+
